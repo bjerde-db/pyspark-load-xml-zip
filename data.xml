@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoices>
+  <!-- Invoice 1 -->
+  <Invoice id="001">
+    <Customer>
+      <Name>John Doe</Name>
+      <Address>
+        <Street>123 Main St</Street>
+        <City>Anytown</City>
+        <State>CA</State>
+        <Zip>12345</Zip>
+      </Address>
+    </Customer>
+    <InvoiceItems>
+      <!-- Invoice Item 1 -->
+      <InvoiceItem id="001">
+        <Description>Item 1</Description>
+        <Quantity>10</Quantity>
+        <Price>1.99</Price>
+      </InvoiceItem>
+      <!-- Invoice Item 2 -->
+      <InvoiceItem id="002">
+        <Description>Item 2</Description>
+        <Quantity>5</Quantity>
+        <Price>3.99</Price>
+      </InvoiceItem>
+      <!-- Invoice Item 3 -->
+      <InvoiceItem id="003">
+        <Description>Item 3</Description>
+        <Quantity>2</Quantity>
+        <Price>9.99</Price>
+      </InvoiceItem>
+      <!-- ... 47 more invoice items -->
+    </InvoiceItems>
+  </Invoice>
+  
+  <!-- Invoice 2 -->
+  <Invoice id="002">
+    <Customer>
+      <Name>Jane Smith</Name>
+      <Address>
+        <Street>456 Maple Ave</Street>
+        <City>Another Town</City>
+        <State>NY</State>
+        <Zip>54321</Zip>
+      </Address>
+    </Customer>
+    <InvoiceItems>
+      <!-- Invoice Item 1 -->
+      <InvoiceItem id="001">
+        <Description>Item 1</Description>
+        <Quantity>7</Quantity>
+        <Price>2.99</Price>
+      </InvoiceItem>
+      <!-- Invoice Item 2 -->
+      <InvoiceItem id="002">
+        <Description>Item 2</Description>
+        <Quantity>3</Quantity>
+        <Price>4.99</Price>
+      </InvoiceItem>
+      <!-- Invoice Item 3 -->
+      <InvoiceItem id="003">
+        <Description>Item 3</Description>
+        <Quantity>1</Quantity>
+        <Price>14.99</Price>
+      </InvoiceItem>
+      <!-- ... 47 more invoice items -->
+    </InvoiceItems>
+  </Invoice>
+  
+  <!-- ... 98 more invoices -->
+  
+</Invoices>
